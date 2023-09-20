@@ -22,41 +22,41 @@ class Rectangle():
 
 
 
-    # Create the "verify_input" method
-    #
-    # It returns a boolean
-    #       True if the width and height are positive numbers
-    #       False otherwise
+    # # Create the "verify_input" method
+    # #
+    # # It returns a boolean
+    # #       True if the width and height are positive numbers
+    # #       False otherwise
 
-    # YOUR CODE HERE
-    def verify_input(self):
-        return self.width > 0 and self.height > 0
-
-
-
-    # Create the "area" method
-    #
-    # It first verifies inputs and return "Invalid input" if they are invalid.
-    # Otherwise, it returns the area of the rectangle.
-
-    # YOUR CODE HERE
-    def area(self):
-        if not self.verify_input():
-            return "Invalid input"
-        return self.width * self.height
+    # # YOUR CODE HERE
+    # def verify_input(self):
+    #     return self.width > 0 and self.height > 0
 
 
 
-    # Create the "perimeter" method
-    #
-    # It first verifies inputs and return "Invalid input" if they are invalid.
-    # Otherwise, it returns the perimeter of the rectangle.
+    # # Create the "area" method
+    # #
+    # # It first verifies inputs and return "Invalid input" if they are invalid.
+    # # Otherwise, it returns the area of the rectangle.
 
-    # YOUR CODE HERE
-    def perimeter(self):
-        if not self.verify_input():
-            return "Invalid input"
-        return 2*self.width + 2*self.height
+    # # YOUR CODE HERE
+    # def area(self):
+    #     if not self.verify_input():
+    #         return "Invalid input"
+    #     return self.width * self.height
+
+
+
+    # # Create the "perimeter" method
+    # #
+    # # It first verifies inputs and return "Invalid input" if they are invalid.
+    # # Otherwise, it returns the perimeter of the rectangle.
+
+    # # YOUR CODE HERE
+    # def perimeter(self):
+    #     if not self.verify_input():
+    #         return "Invalid input"
+    #     return 2*self.width + 2*self.height
     
 
 
