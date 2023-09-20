@@ -22,15 +22,15 @@ class Rectangle():
 
 
 
-    # # Create the "verify_input" method
-    # #
-    # # It returns a boolean
-    # #       True if the width and height are positive numbers
-    # #       False otherwise
+    # Create the "verify_input" method
+    #
+    # It returns a boolean
+    #       True if the width and height are positive numbers
+    #       False otherwise
 
-    # # YOUR CODE HERE
-    # def verify_input(self):
-    #     return self.width > 0 and self.height > 0
+    # YOUR CODE HERE
+    def verify_input(self):
+        return self.width > 0 and self.height > 0
 
 
 
